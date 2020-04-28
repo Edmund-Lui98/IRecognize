@@ -67,6 +67,8 @@ Functionalities:
   
 - Speak Button
   - This button will speak out loud the prediction in place at the time the button is pressed
+
+Unfortunately, due to time constraints I did not get to put this information in the "About" section.
   
 ## Whats next?
 
