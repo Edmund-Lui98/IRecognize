@@ -69,6 +69,10 @@ Functionalities:
   - This button will speak out loud the prediction in place at the time the button is pressed
 
 Unfortunately, due to time constraints I did not get to put this information in the "About" section.
+
+## Challenges faced
+
+One of the biggest challenges that I faced making this application was the implementation of AR session in conjunction with the AV session. Both of these sessions and the documentation tell me that it calls on the camera and so when trying to implement both at the same time, it will crash the application by trying to layer both camera calls onto each other. As I was searching through google about how to implement them together, many is not most websites have said that they are not compatible due to the nature of their use. This made it very difficult to find a way around it but I was able to figure out how the AR session functions and that it takes snippits of images through hte state cycle and through that I can buffer it through the machine learning to make a prediction. 
   
 ## Whats next?
 
